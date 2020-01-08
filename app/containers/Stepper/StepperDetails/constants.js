@@ -1,0 +1,1 @@
+export const SET_FILEDS_DETAIL = 'SET_FILEDS_DETAIL';

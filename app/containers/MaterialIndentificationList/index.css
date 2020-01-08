@@ -1,0 +1,14 @@
+.material-iden .ant-collapse-item .ant-collapse-header {
+  padding: 12px 0 12px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.material-iden .ant-collapse-item .ant-collapse-header span i {
+  margin-right: 5px;
+}
+
+.material-iden .ant-collapse-item .ant-collapse-header .anticon {
+  left: initial;
+  right: 16px;
+}

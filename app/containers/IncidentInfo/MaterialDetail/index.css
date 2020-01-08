@@ -1,0 +1,20 @@
+.material-detail-card .ant-card-body {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.material-detail-card .ant-list-item-content {
+  justify-content: normal;
+}
+
+.material-detail-card.horizontal .ant-card-body {
+  padding: 5px 18px 15px 18px;
+}
+
+.material-detail-card.horizontal .ant-list-item-meta h4 {
+  margin-bottom: 0;
+}
+
+.material-detail-card.horizontal .ant-list-item {
+  padding: 10px 0;
+}

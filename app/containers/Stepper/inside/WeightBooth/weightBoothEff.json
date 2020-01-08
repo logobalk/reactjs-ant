@@ -1,0 +1,245 @@
+{
+  "materialGroup": {
+    "nonBetaLactam": {
+      "name": "Non Beta Lactam",
+      "grade": {
+        "D": {
+          "details": [
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "HEPA FILTER01",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "acceptanceLimit": {
+                "header": "Acceptance Limit",
+                "display": "75-400 ",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "auto",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            },
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "HEPA FILTER02",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "acceptanceLimit": {
+                "header": "Acceptance Limit",
+                "display": "75-400 ",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "auto",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            },
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "HEPA FILTER03",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "acceptanceLimit": {
+                "header": "Acceptance Limit",
+                "display": "75-400 ",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "auto",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            },
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "PRE FILTER01",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "acceptanceLimit": {
+                "header": "Acceptance Limit",
+                "display": "40-250 ",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "auto",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            },
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "PRE FILTER02",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "acceptanceLimit": {
+                "header": "Acceptance Limit",
+                "display": "40-250 ",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "auto",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            },
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "MEDIUM FILTER01",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "acceptanceLimit": {
+                "header": "Acceptance Limit",
+                "display": "50-300 ",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "auto",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            },
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "MEDIUM FILTER02",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "acceptanceLimit": {
+                "header": "Acceptance Limit",
+                "display": "50-300 ",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "auto",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            },
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "MEDIUM FILTER03",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "acceptanceLimit": {
+                "header": "Acceptance Limit",
+                "display": "50-300 ",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "auto",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

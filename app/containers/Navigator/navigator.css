@@ -1,0 +1,18 @@
+.ant-layout-header {
+  background: #989292;
+  padding: 0;
+}
+.ant-layout-sider {
+  box-shadow: 2px 0 8px 0 rgba(29,35,41,.05);
+}
+.ant-menu-inline,.ant-menu-vertical, .ant-menu-vertical-left {
+  border-right: 0;
+}
+
+.avatar-popover {
+  padding-left: 19px;
+}
+
+.avatar-popover > .ant-popover-content > .ant-popover-arrow {
+  left: 15px;
+}

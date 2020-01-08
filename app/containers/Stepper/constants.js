@@ -1,0 +1,1 @@
+export const SET_START_STATUS = 'SET_START_STATUS';

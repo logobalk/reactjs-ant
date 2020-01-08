@@ -1,0 +1,36 @@
+{
+  "materialGroup": {
+    "nonBetaLactam": {
+      "name": "Non Beta Lactam",
+      "grade": {
+        "D": {
+          "details": [
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "N2 Gas  ต้องมี Gas ในระบบไม่น้อยกว่า 2 Bar",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "center",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

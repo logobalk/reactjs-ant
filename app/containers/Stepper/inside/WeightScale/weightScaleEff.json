@@ -1,0 +1,59 @@
+{
+  "materialGroup": {
+    "nonBetaLactam": {
+      "name": "Non Beta Lactam",
+      "grade": {
+        "D": {
+          "details": [
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "Next  Calibration due date",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "center",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            },
+            {
+              "criteria": {
+                "header": "Criteria",
+                "display": "Average weight for Daily check  (FM-QA-CV-24)",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "center",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

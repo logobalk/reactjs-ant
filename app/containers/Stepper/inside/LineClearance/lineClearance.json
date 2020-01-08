@@ -1,0 +1,123 @@
+{
+  "materialGroup": {
+    "nonBetaLactam": {
+      "name": "Non Beta Lactam",
+      "grade": {
+        "D": {
+          "roomNo": {
+            "104": {
+              "roomDetail": {
+                "header": "Room Detail",
+                "display": "104 WEIGHING (D)",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "acceptanceLimit": {
+                "header": "Acceptance Limit",
+                "display": "10-20 PA",
+                "textAlign": "auto",
+                "type": "Text"
+              },
+              "recordingResult": {
+                "header": "Recording Result",
+                "display": "",
+                "value": "",
+                "textAlign": "auto",
+                "type": "Input"
+              },
+              "systemEvaluate": {
+                "header": "System Evaluate Passed/Accepted/Failed",
+                "display": "Pass",
+                "textAlign": "auto",
+                "enabled": true,
+                "value": "",
+                "type": "Checkbox"
+              },
+              "diffRoom": {
+                "103": {
+                  "roomDetail": {
+                    "header": "Room Detail",
+                    "display": "103 CORRIDOR",
+                    "textAlign": "auto",
+                    "type": "Text"
+                  },
+                  "acceptanceLimit": {
+                    "header": "Acceptance Limit",
+                    "display": "25-35 PA",
+                    "textAlign": "auto",
+                    "type": "Text"
+                  },
+                  "recordingResult": {
+                    "header": "Recording Result",
+                    "display": "",
+                    "textAlign": "auto",
+                    "value": "",
+                    "type": "Input"
+                  },
+                  "systemEvaluate": {
+                    "header": "System Evaluate Passed/Accepted/Failed",
+                    "display": "Pass",
+                    "enabled": true,
+                    "textAlign": "auto",
+                    "value": "",
+                    "type": "Checkbox"
+                  }
+                }
+              },
+              "pressureDiff": {
+                "detail": {
+                  "header": "",
+                  "display": "จะต้องไม่น้อยกว่า 15 Pascal",
+                  "textAlign": "auto",
+                  "type": "Text"
+                },
+                "empty": {
+                  "header": "",
+                  "display": "",
+                  "textAlign": "auto",
+                  "type": "Text"
+                },
+                "recordingResult": {
+                  "header": "Recording Result",
+                  "display": "(Diff room no.106-107) = 15",
+                  "textAlign": "auto",
+                  "type": "Text"
+                },
+                "systemEvaluate": {
+                  "header": "System Evaluate Passed/Accepted/Failed",
+                  "display": "Pass",
+                  "enabled": true,
+                  "value": "",
+                  "textAlign": "auto",
+                  "type": "Checkbox"
+                }
+              }
+            },
+            "107": {
+              "name": "107 WEIGHING (D)",
+              "acceptanceLimit": "10-20 PA",
+              "diffRoom": {
+                "106": {
+                  "name": "106 CORRIDOR (D)",
+                  "acceptanceLimit": "25-35 PA"
+                }
+              },
+              "pressureDiff": 15
+            },
+            "108": {
+              "name": "108 SOLVENT (D)",
+              "acceptanceLimit": "10-20 PA",
+              "diffRoom": {
+                "106": {
+                  "name": "106 CORRIDOR (D)",
+                  "acceptanceLimit": "25-35 PA"
+                }
+              },
+              "pressureDiff": 15
+            }
+          }
+        }
+      }
+    }
+  }
+}

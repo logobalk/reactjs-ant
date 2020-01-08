@@ -1,0 +1,23 @@
+.barcode {
+  position: relative;
+}
+
+.laser {
+  width: 150px;
+  background-color: #AC1F2D;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+  box-shadow: 0 0 4px #9e9e9e;
+  animation: scanning 2.75s linear infinite;
+}
+
+@keyframes scanning {
+  50% {
+    transform: translateY(100px);
+  }
+}

@@ -1,0 +1,38 @@
+const createData = (
+  id,
+  roomNo,
+  queue,
+  itemCode,
+  itemName,
+  batchNo,
+  quantity,
+  unit,
+  condition2,
+  condition3,
+  condition4,
+  status,
+  processOrder,
+) => ({
+  id,
+  roomNo,
+  queue,
+  itemCode,
+  itemName,
+  batchNo,
+  quantity,
+  unit,
+  condition2,
+  condition3,
+  condition4,
+  status,
+  processOrder,
+});
+
+export const data = [
+  createData(1, '108', '1', '10000001', 'Hydroxine Di Hydrochloride', 'M000000011', '12.569', 'Kg', '45%', 'Flush N2', 'Protect from light', 'Pending', '1051079'),
+  createData(2, '108', '1', '10000007', 'Hydroxine Di Hydrochloride', 'MN00000012', '0.010', 'G', '45%', 'Flush N2', 'Protect from light', 'Pending', '1051080'),
+  createData(3, '106', '2', '10000004', 'Hydroxine Di Hydrochloride', 'ML000000013', '13.908', 'L', '65%', 'Flush N2', 'non', 'Pending', '1051079'),
+  createData(4, '106', '3', '10000005', 'Hydroxine Di Hydrochloride', 'M000000003', '100.000', 'G', '25%', 'Flush N2', 'non', 'Completed', '1051079'),
+  createData(5, '106', '3', '10000002', 'Hydroxine Di Hydrochloride', 'M000000003', '150.900', 'Kg', '25%', 'non', 'Full drum', 'Completed', '1051080'),
+  createData(6, '106', '5', '10000002', 'Hydroxine Di Hydrochloride', 'MN00000020', '12.789', 'g', '65%', 'non', 'non', 'Completed', '1051081'),
+];

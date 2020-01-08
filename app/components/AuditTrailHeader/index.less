@@ -1,0 +1,79 @@
+.row {
+  @media (min-width: 768px) {
+    display: flex;
+  }
+  text-align: center;
+
+  & > div {
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  & > div > div {
+    @media (min-width: 768px) {
+      border-right: 1px solid #e8e8e8;
+    } 
+  }
+  &.readOnly > div > div:last-child {
+    border-right: 0;
+  }
+  & > div:last-child, & > div > div:last-child {
+    text-align: center;
+    // border-right: none;
+  }
+  & > div > span:first-child {
+    padding-right: 4px;
+  }
+}
+
+.rowOperator {
+  & > div {
+    display: block;
+  }
+  & > div > div {
+    @media (max-width: 767px) {
+      border-left: none;
+    }
+    border-right: 0;
+    border-left: 1px solid #e8e8e8;
+  }
+}
+
+.operator {
+  padding: 0 0 0 30px;
+}
+
+.operator.readOnly {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.addBtn {
+  background-color: #5b8c00;
+  border-color: #5b8c00;
+  &:hover, &:focus {
+    background-color: #7cb305;
+    border-color: #7cb305;
+  }
+}
+
+.editBtn {
+  position: absolute;
+  left: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.deleteBtn {
+  border: none;
+  box-shadow: none;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}

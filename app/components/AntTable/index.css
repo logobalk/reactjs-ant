@@ -1,0 +1,17 @@
+.sampling-table.main-theme .ant-table-thead > tr > th {
+  /* text-align: center; */
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.89);
+  /* background: #ac1f2d; */
+  background: #AC1F2D;
+  background: -webkit-linear-gradient(to bottom, #AC1F2D, #c52636);
+  background: linear-gradient(to bottom, #AC1F2D, #c52636);
+}
+
+.sampling-table.main-theme .ant-table-thead > tr:first-child > th:first-child {
+  border-top-left-radius: 0px;
+}
+
+.sampling-table.main-theme .ant-table-thead > tr:first-child > th:last-child {
+  border-top-right-radius: 0px;
+}
